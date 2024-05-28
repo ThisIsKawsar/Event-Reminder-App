@@ -1,7 +1,8 @@
 # Event-Reminder-App
 To Run App Run Command you need PHP 7.4.3 version 
  1. composer install
-  or composer insatll - -ignore-   platform-req=ext-int  2. cp .env.example .env
+  or composer insatll - -ignore-   platform-req=ext-int
+ 2. cp .env.example .env
  3. php artisan key:generate
  4. php artisan migrate
  5. php artisan db:seed
